@@ -1,4 +1,3 @@
-import static java.lang.System.out;
 
 public class ForLoops {
     public void myLoop(String[] args) {
@@ -12,8 +11,9 @@ public class ForLoops {
         public static void doWhileLoop{
             int x = 0;
             while (x > 11) {
-                System.out.println("This is loop " + x);
+                System.out.println("This is loop " + x + " of 10");
                 x++;
+
             }
         }
     }
