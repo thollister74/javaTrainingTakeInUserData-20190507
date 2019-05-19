@@ -22,6 +22,7 @@ public class UserInformation {
         this.userHairColor = hairColor;
         this.userEyeColor = eyeColor;
 
+
     }
 
 }
