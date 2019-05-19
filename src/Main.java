@@ -19,7 +19,7 @@ public class Main {
 //*******Creating and and outputting simple 'user' information.*******//
 
     UserInformation sterlingArcher = new UserInformation(35,
-            78,  "Sterming", "Archer",
+            78,  "Sterling", "Archer",
             Color.BLACK, Color.BLUE);
 
     UserInformation lanaKane = new UserInformation(30,
@@ -36,7 +36,15 @@ public class Main {
         System.out.println("Her hair is " +lanaKane.userHairColor+ " and her eyes are " +lanaKane.userEyeColor+".");
         System.out.println("She is " +lanaKane.userAge+ " years old.\n");
 
+     //forLoop
+        int[] randomNumbers = {98, 0, 41, 3, 5, 82, 978, 323, 38, 915};
+        System.out.println(randomNumbers.length);
+        for (int i : randomNumbers) {
+            System.out.println(i);
+        }
+
+    }
 
 
     }
-}
+
