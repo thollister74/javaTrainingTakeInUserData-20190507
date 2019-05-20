@@ -1,5 +1,4 @@
-import java.awt.*;
-import java.util.Scanner;
+package src;
 
 public class UserInformation {
     int userAge;

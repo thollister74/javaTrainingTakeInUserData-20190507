@@ -1,3 +1,4 @@
+package src;
 
 public class ForLoops {
     public void myLoop(String[] args) {
@@ -7,6 +8,7 @@ public class ForLoops {
         for (int i : randomNumbers) {
             System.out.println(i);
         }
+        System.out.println("In assending order, the integers are: " +Arrays.sort(randomNumbers));
 
         public static void doWhileLoop{
             int x = 0;
